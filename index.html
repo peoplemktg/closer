@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Meta Tags -->
+    <title>David Muñoz | Closer High Ticket Consultivo</title>
+    <meta name="description" content="Top Closer High Ticket. Ayudo a infoproductores y agencias a dejar de quemar leads y aumentar su facturación con venta consultiva.">
+    <meta name="author" content="David Muñoz">
+    <meta property="og:title" content="David Muñoz | Closer High Ticket">
+    <meta property="og:description" content="Auditoría de embudos y cierre de ventas High Ticket (+2K USD).">
+    <meta property="og:type" content="website">
+    <!-- TODO: Cuando tengas la web subida, pon aquí el link a una imagen tuya para que se vea al compartir el link -->
+    <meta property="og:image" content="https://tudominio.com/ruta-a-tu-foto-social.jpg">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- Configuración Tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { sans: ['Inter', 'sans-serif'], serif: ['Playfair Display', 'serif'], },
+                    colors: {
+                        brand: { 50: '#f0f9ff', 100: '#e0f2fe', 400: '#38bdf8', 500: '#0ea5e9', 600: '#0284c7', 900: '#0c4a6e', },
+                        accent: { 400: '#fbbf24', 500: '#f59e0b', 600: '#d97706', }, /* Color Dorado High Ticket */
+                        dark: { bg: '#0b1120', surface: '#1e293b', text: '#f8fafc', muted: '#94a3b8' }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #0b1120; color: #f8fafc; overflow-x: hidden; }
+        .glass-effect { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .text-gradient { background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-image: linear-gradient(to right, #38bdf8, #fbbf24); }
+        .fade-in-up { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+        .fade-in-up.visible { opacity: 1; transform: translateY(0); }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0b1120; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+        .hover-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px -10px rgba(14, 165, 233, 0.3); border-color: #0ea5e9; }
+        
+        /* Ajuste para el iframe de YouTube responsivo */
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- HERO SECTION (AIDA) -->
+    <section class="relative pt-16 pb-12 lg:pt-28 lg:pb-20 overflow-hidden px-4 sm:px-6">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl pointer-events-none">
+            <div class="absolute top-0 left-1/4 w-96 h-96 bg-brand-600/20 rounded-full blur-[120px]"></div>
+        </div>
+
+        <div class="relative max-w-5xl mx-auto text-center z-10">
+            <!-- A: ATENCIÓN -->
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-gray-800/50 border border-accent-500/30 text-xs sm:text-sm font-bold text-accent-400 mb-6 sm:mb-8 fade-in-up shadow-[0_0_15px_rgba(245,158,11,0.2)]">
+                <span class="relative flex h-2 w-2 sm:h-3 sm:w-3"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accent-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 sm:h-3 sm:w-3 bg-accent-500"></span></span>
+                Atención: Infoproductores y Agencias (+2K USD)
+            </div>
+            
+            <!-- I: INTERÉS -->
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl lg:leading-[1.15] font-extrabold tracking-tight mb-6 fade-in-up" style="transition-delay: 100ms;">
+                Tu problema no es la falta de tráfico. <br class="hidden sm:block" />
+                <span class="text-gradient">Estás quemando leads calificados en la línea de meta.</span>
+            </h1>
+            
+            <!-- D: DESEO -->
+            <p class="mt-4 sm:mt-6 text-base sm:text-xl text-gray-300 max-w-3xl mx-auto font-light leading-relaxed fade-in-up px-2" style="transition-delay: 200ms;">
+                <strong class="text-white font-semibold">Deja de perder dinero en pauta.</strong> Me integro a tu ecosistema para rescatar esas ventas perdidas y escalar tu facturación. Venta consultiva real, cero presión y 100% enfocada en tu marca.
+            </p>
+
+            <!-- VSL VIDEO -->
+            <div class="mt-10 sm:mt-12 mb-8 fade-in-up w-full max-w-4xl mx-auto" style="transition-delay: 300ms;">
+                <div class="rounded-xl sm:rounded-2xl overflow-hidden border border-gray-700 shadow-2xl shadow-accent-500/10 bg-gray-900 video-container">
+                    <!-- TODO: CAMBIAR VIDEO DE YOUTUBE -->
+                    <!-- Instrucción: Reemplaza "dQw4w9WgXcQ" por el ID de tu video de YouTube -->
+                    <!-- Ejemplo: Si tu link es https://www.youtube.com/watch?v=AbCdEfGh123, el ID es AbCdEfGh123 -->
+                    <iframe 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=1&rel=0&playsinline=1&modestbranding=1" 
+                        title="David Muñoz VSL" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            
+            <!-- A: ACCIÓN -->
+            <div class="mt-8 flex flex-col sm:flex-row gap-4 justify-center fade-in-up" style="transition-delay: 400ms;">
+                <a href="#aplicar" class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-accent-600 to-accent-500 text-white px-6 py-4 sm:px-8 sm:py-4 rounded-full text-base sm:text-lg font-bold hover:from-accent-500 hover:to-accent-400 transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(245,158,11,0.4)] w-full sm:w-auto">
+                    Quiero dejar de perder leads
+                    <i class="ph-bold ph-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- MÉTRICAS -->
+    <section class="py-10 sm:py-12 border-y border-gray-800 bg-gray-900/50 relative z-10 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 text-center fade-in-up">
+                <div class="p-2 sm:p-4">
+                    <div class="text-3xl sm:text-4xl font-black text-white mb-1 sm:mb-2 tracking-tight"><span class="text-accent-400">20-35</span>%</div>
+                    <div class="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-widest">Close Rate Promedio</div>
+                </div>
+                <div class="p-2 sm:p-4 border-l border-gray-800">
+                    <div class="text-3xl sm:text-4xl font-black text-white mb-1 sm:mb-2 tracking-tight">+<span class="text-accent-400">$500k</span></div>
+                    <div class="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-widest">Facturación Generada</div>
+                </div>
+                <div class="p-2 sm:p-4 border-t md:border-t-0 md:border-l border-gray-800 mt-4 md:mt-0 pt-6 md:pt-4">
+                    <div class="text-3xl sm:text-4xl font-black text-white mb-1 sm:mb-2 tracking-tight">~<span class="text-accent-400">80</span>%</div>
+                    <div class="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-widest">Ventas en Seguimiento</div>
+                </div>
+                <div class="p-2 sm:p-4 border-t border-l md:border-t-0 border-gray-800 mt-4 md:mt-0 pt-6 md:pt-4">
+                    <div class="text-3xl sm:text-4xl font-black text-white mb-1 sm:mb-2 tracking-tight">+<span class="text-accent-400">$2.5k</span></div>
+                    <div class="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-widest">Ticket Promedio</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="py-16 sm:py-24 relative overflow-hidden px-4 sm:px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+                <!-- Fotos -->
+                <div class="relative fade-in-up order-2 lg:order-1 max-w-md mx-auto lg:max-w-none">
+                    <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10 border border-gray-700 bg-gray-800">
+                        <!-- TODO: CAMBIAR FOTO DE PERFIL -->
+                        <!-- Sube tu foto (ej: foto-david.jpg) a Github y cambia el 'src' por la ruta de tu foto -->
+                        <img src="https://placehold.co/800x1000/1e293b/38bdf8?text=Foto+David+Mu%C3%B1oz" alt="David Muñoz - Closer High Ticket" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 w-2/3 aspect-square bg-brand-600/20 rounded-2xl border border-brand-500/30 backdrop-blur-sm z-0 hidden sm:block"></div>
+                </div>
+
+                <!-- Copy -->
+                <div class="fade-in-up order-1 lg:order-2">
+                    <h2 class="text-brand-500 font-bold tracking-wide uppercase text-xs sm:text-sm mb-2 text-center lg:text-left">Conoce a tu futuro socio</h2>
+                    <h3 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-6 text-center lg:text-left">No soy un tomador de pedidos. Soy un Closer Estratégico.</h3>
+                    
+                    <div class="space-y-4 sm:space-y-6 text-gray-400 text-base sm:text-lg leading-relaxed">
+                        <p>
+                            Hola, soy <strong>David Muñoz</strong>. Trabajé en EE. UU. reclutando y entrenando equipos de ventas, y construyendo ecosistemas comerciales tradicionales desde cero. Vi un problema gigante en el High Ticket: closers actuando como robots leyendo un guion, quemando leads valiosos y dañando marcas.
+                        </p>
+                        <p>
+                            En los últimos 3 años, como <strong>Top Closer High Ticket</strong> y participando en <strong>lanzamientos digitales</strong>, sé lo que cuesta adquirir un lead. Yo aplico una <strong>venta consultiva y ética</strong>. La gente no compra presionada; compra cuando se siente comprendida.
+                        </p>
+                        <div class="bg-gray-800/50 p-5 sm:p-6 rounded-xl border border-gray-700 mt-6">
+                            <h4 class="text-white font-bold mb-2 flex items-center gap-2 text-sm sm:text-base">
+                                <i class="ph-fill ph-target text-brand-400 text-lg sm:text-xl"></i> Mi objetivo principal:
+                            </h4>
+                            <p class="text-xs sm:text-sm">
+                                Integrarme a tu equipo como un dueño de negocio más. Cuidar tus leads como si yo mismo hubiera pagado la pauta publicitaria, y gestionar mi propio pipeline para extraer cada dólar posible de tu ecosistema mediante seguimiento.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONDICIONES -->
+    <section class="py-16 sm:py-24 bg-dark-surface relative border-y border-gray-800 px-4 sm:px-6">
+        <div class="max-w-7xl mx-auto text-center fade-in-up">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-4">Skin in the game: Mis Condiciones</h2>
+            <p class="text-gray-400 text-sm sm:text-base max-w-2xl mx-auto mb-10 sm:mb-12">
+                No soy un empleado, soy un socio a rendimiento. Para garantizar mi máxima energía, opero bajo reglas claras que nos protegen a ambos.
+            </p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 text-left">
+                <div class="bg-dark-bg p-6 sm:p-8 rounded-2xl border border-gray-700">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-500/10 rounded-full flex items-center justify-center mb-4 sm:mb-6">
+                        <i class="ph-fill ph-shield-check text-xl sm:text-2xl text-brand-500"></i>
+                    </div>
+                    <h4 class="text-lg sm:text-xl font-bold text-white mb-2 sm:mb-3">Cobro Post-Garantía</h4>
+                    <p class="text-gray-400 text-xs sm:text-sm">Mi comisión se paga una vez pase la fecha de garantía del cliente. Si el producto no cumple, yo no gano. Así de seguro estoy.</p>
+                </div>
+                <div class="bg-dark-bg p-6 sm:p-8 rounded-2xl border border-gray-700">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-500/10 rounded-full flex items-center justify-center mb-4 sm:mb-6">
+                        <i class="ph-fill ph-star text-xl sm:text-2xl text-brand-500"></i>
+                    </div>
+                    <h4 class="text-lg sm:text-xl font-bold text-white mb-2 sm:mb-3">Ofertas Validadas</h4>
+                    <p class="text-gray-400 text-xs sm:text-sm">Audito tu ecosistema (funnel) antes de empezar. El producto debe superar los $2,000 USD y solucionar problemas reales. No vendo humo.</p>
+                </div>
+                <div class="bg-dark-bg p-6 sm:p-8 rounded-2xl border border-gray-700 sm:col-span-2 lg:col-span-1">
+                    <div class="w-10 h-10 sm:w-12 sm:h-12 bg-brand-500/10 rounded-full flex items-center justify-center mb-4 sm:mb-6">
+                        <i class="ph-fill ph-handshake text-xl sm:text-2xl text-brand-500"></i>
+                    </div>
+                    <h4 class="text-lg sm:text-xl font-bold text-white mb-2 sm:mb-3">Enfoque Total</h4>
+                    <p class="text-gray-400 text-xs sm:text-sm">Firmo contrato pero no doy exclusividad; sin embargo, no trabajo con muchos. Tu cuenta tendrá la atención profesional que requiere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECH STACK & BENTO GRID -->
+    <section class="py-16 sm:py-24 relative px-4 sm:px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-12 sm:mb-16 fade-in-up">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-white mb-4">Entiendo tu Ecosistema de Principio a Fin</h2>
+                <p class="max-w-2xl text-base sm:text-lg text-gray-400 mx-auto">
+                    No solo cuelgo el teléfono. Entiendo de donde viene el tráfico, cómo está educado el lead y cómo procesar el cobro. Hablamos el mismo idioma.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-5xl mx-auto fade-in-up">
+                <!-- CRM -->
+                <div class="col-span-1 sm:col-span-2 bg-gray-800/40 p-5 sm:p-6 rounded-2xl border border-gray-700 hover-card transition-all flex flex-col justify-center relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl group-hover:bg-blue-500/20 transition-all"></div>
+                    <i class="ph-fill ph-database text-3xl text-blue-400 mb-3 sm:mb-4 relative z-10"></i>
+                    <h4 class="text-base sm:text-lg font-bold text-white mb-1 relative z-10">Gestión CRM</h4>
+                    <p class="text-xs sm:text-sm text-gray-400 relative z-10">GoHighLevel (GHL), HubSpot, Pipedrive.</p>
+                </div>
+                
+                <!-- Funnels -->
+                <div class="col-span-1 bg-gray-800/40 p-5 sm:p-6 rounded-2xl border border-gray-700 hover-card transition-all relative overflow-hidden group">
+                    <div class="absolute bottom-0 right-0 w-24 h-24 bg-purple-500/10 rounded-full blur-2xl group-hover:bg-purple-500/20 transition-all"></div>
+                    <i class="ph-fill ph-funnel text-3xl text-purple-400 mb-3 sm:mb-4"></i>
+                    <h4 class="text-base sm:text-lg font-bold text-white mb-1">Funnels & VSL</h4>
+                    <p class="text-xs text-gray-400">Lectura de métricas, Manychat y automatizaciones.</p>
+                </div>
+
+                <!-- Pasarelas -->
+                <div class="col-span-1 bg-gray-800/40 p-5 sm:p-6 rounded-2xl border border-gray-700 hover-card transition-all relative overflow-hidden group">
+                    <i class="ph-fill ph-credit-card text-3xl text-orange-400 mb-3 sm:mb-4"></i>
+                    <h4 class="text-base sm:text-lg font-bold text-white mb-1">Checkouts</h4>
+                    <p class="text-xs text-gray-400">Hotmart, CopeCart, Stripe.</p>
+                </div>
+
+                <!-- Calendarios -->
+                <div class="col-span-1 bg-gray-800/40 p-5 sm:p-6 rounded-2xl border border-gray-700 hover-card transition-all">
+                    <i class="ph-fill ph-calendar-check text-3xl text-emerald-400 mb-3 sm:mb-4"></i>
+                    <h4 class="text-base sm:text-lg font-bold text-white mb-1">Agendamiento</h4>
+                    <p class="text-xs text-gray-400">Calendly, Acuity, Setters.</p>
+                </div>
+
+                <!-- Metodología -->
+                <div class="col-span-1 sm:col-span-2 lg:col-span-3 bg-gradient-to-br from-brand-900/40 to-gray-800/40 p-5 sm:p-6 rounded-2xl border border-brand-500/30 hover-card transition-all flex flex-col justify-center">
+                    <div class="flex flex-col sm:flex-row items-start gap-3 sm:gap-4">
+                        <i class="ph-fill ph-chart-line-up text-3xl sm:text-4xl text-brand-400"></i>
+                        <div>
+                            <h4 class="text-base sm:text-lg font-bold text-white mb-1 sm:mb-2">Metodología Propia adaptable</h4>
+                            <p class="text-xs sm:text-sm text-gray-300">Tengo mi propio script de venta consultiva validado. Lo audito y lo adapto al tono de tu marca, principios y al entregable específico de tu servicio.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FORMULARIO / ACCIÓN WHATSAPP -->
+    <section id="aplicar" class="py-16 sm:py-24 relative overflow-hidden bg-dark-surface border-t border-gray-800 px-4 sm:px-6">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-4xl h-full pointer-events-none z-0">
+            <div class="w-full h-full bg-brand-600/5 rounded-full blur-[100px]"></div>
+        </div>
+
+        <div class="max-w-3xl mx-auto relative z-10">
+            <div class="glass-effect rounded-3xl p-6 sm:p-8 md:p-12 border border-gray-700 shadow-2xl fade-in-up text-center">
+                
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white mb-4 sm:mb-6">¿Buscando integrar un Closer? Hablemos.</h2>
+                <p class="text-gray-400 text-sm sm:text-base md:text-lg mb-6 sm:mb-8">
+                    Si crees que mi perfil hace *fit* con tu empresa, revisa estos 3 requisitos mínimos. Si los cumples, envíame un mensaje.
+                </p>
+
+                <!-- Checklist -->
+                <div class="bg-gray-900/80 rounded-2xl p-4 sm:p-6 text-left mb-8 sm:mb-10 border border-gray-800 inline-block w-full">
+                    <ul class="space-y-3 sm:space-y-4">
+                        <li class="flex items-start gap-2 sm:gap-3">
+                            <i class="ph-fill ph-check-circle text-emerald-500 text-lg sm:text-xl mt-0.5 min-w-[20px]"></i>
+                            <span class="text-gray-300 text-sm sm:text-base">Oferta validada en el mercado (High Ticket <strong>+$2,000 USD</strong>).</span>
+                        </li>
+                        <li class="flex items-start gap-2 sm:gap-3">
+                            <i class="ph-fill ph-check-circle text-emerald-500 text-lg sm:text-xl mt-0.5 min-w-[20px]"></i>
+                            <span class="text-gray-300 text-sm sm:text-base">Ecosistema que genera <strong>flujo constante de leads y llamadas</strong>.</span>
+                        </li>
+                        <li class="flex items-start gap-2 sm:gap-3">
+                            <i class="ph-fill ph-check-circle text-emerald-500 text-lg sm:text-xl mt-0.5 min-w-[20px]"></i>
+                            <span class="text-gray-300 text-sm sm:text-base">Tu producto realmente soluciona el problema (Ética y coherencia).</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mb-6 sm:mb-8 max-w-2xl mx-auto">
+                    <h3 class="text-xl sm:text-2xl md:text-3xl font-bold text-white mb-2 sm:mb-3">No necesitas más leads. Necesitas dejar de perderlos.</h3>
+                    <p class="text-gray-400 text-sm sm:text-base md:text-lg">Yo me encargo de la conversión. Aumenta la facturación sin invertir un centavo más en pauta publicitaria.</p>
+                </div>
+
+                <!-- TODO: CONFIGURAR WHATSAPP -->
+                <!-- Instrucción: Cambia el número "573000000000" por tu número real. 
+                     57 es el código de Colombia (cámbialo si es de otro país). NO pongas el signo "+" -->
+                <a href="https://wa.me/573000000000?text=Hola%20David,%20vi%20tu%20landing%20page%20y%20cumplo%20con%20los%20requisitos.%20Me%20gustar%C3%ADa%20que%20audites%20mi%20ecosistema%20y%20hablemos%20sobre%20integrarte%20como%20Closer." 
+                   target="_blank" 
+                   class="w-full inline-flex justify-center items-center gap-2 sm:gap-3 bg-gradient-to-r from-[#25D366] to-[#128C7E] hover:from-[#1ebd5b] hover:to-[#0f7a6d] text-white font-bold text-base sm:text-xl py-4 sm:py-5 px-6 sm:px-10 rounded-2xl transition-all transform hover:scale-[1.02] shadow-lg shadow-[#25D366]/30">
+                    <i class="ph-fill ph-whatsapp text-2xl sm:text-3xl"></i>
+                    Postular mi negocio
+                </a>
+                <p class="text-gray-500 text-xs sm:text-sm mt-4 sm:mt-6 flex items-center justify-center gap-2">
+                    <i class="ph-fill ph-lock-key"></i> Contacto directo y confidencial
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-dark-bg border-t border-gray-800 py-8 sm:py-12 text-center px-4">
+        <span class="font-serif text-lg sm:text-xl font-bold tracking-tight text-white block mb-2">David<span class="text-brand-500">Muñoz</span>.</span>
+        <p class="text-xs sm:text-sm text-gray-500">Top Closer High Ticket & Consultor de Ventas.</p>
+    </footer>
+
+    <script>
+        // Animación de aparición (Fade-in-up) al hacer scroll
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1 });
+        
+        document.querySelectorAll('.fade-in-up').forEach(el => observer.observe(el));
+    </script>
+</body>
+</html>
