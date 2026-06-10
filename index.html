@@ -11,7 +11,6 @@
     <meta property="og:title" content="David Muñoz | Closer High Ticket">
     <meta property="og:description" content="Auditoría de embudos y cierre de ventas High Ticket (+2K USD).">
     <meta property="og:type" content="website">
-    <!-- TODO: Cuando tengas la web subida, pon aquí el link a una imagen tuya para que se vea al compartir el link -->
     <meta property="og:image" content="https://tudominio.com/ruta-a-tu-foto-social.jpg">
 
     <!-- Tailwind CSS -->
@@ -82,8 +81,6 @@
             <div class="mt-10 sm:mt-12 mb-8 fade-in-up w-full max-w-4xl mx-auto" style="transition-delay: 300ms;">
                 <div class="rounded-xl sm:rounded-2xl overflow-hidden border border-gray-700 shadow-2xl shadow-accent-500/10 bg-gray-900 video-container">
                     <!-- TODO: CAMBIAR VIDEO DE YOUTUBE -->
-                    <!-- Instrucción: Reemplaza "dQw4w9WgXcQ" por el ID de tu video de YouTube -->
-                    <!-- Ejemplo: Si tu link es https://www.youtube.com/watch?v=AbCdEfGh123, el ID es AbCdEfGh123 -->
                     <iframe 
                         src="https://www.youtube.com/embed/dQw4w9WgXcQ?controls=1&rel=0&playsinline=1&modestbranding=1" 
                         title="David Muñoz VSL" 
@@ -107,22 +104,31 @@
     <!-- MÉTRICAS -->
     <section class="py-10 sm:py-12 border-y border-gray-800 bg-gray-900/50 relative z-10 px-4">
         <div class="max-w-7xl mx-auto">
+            
+            <!-- Badge de actualización en tiempo real -->
+            <div class="flex justify-center mb-8 fade-in-up">
+                <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-gray-800/80 border border-gray-700 rounded-full text-xs font-medium text-gray-400 shadow-sm">
+                    <span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span></span>
+                    Métricas Verificadas (Actualizado: Junio 2026)
+                </div>
+            </div>
+
             <div class="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 text-center fade-in-up">
-                <div class="p-2 sm:p-4">
-                    <div class="text-3xl sm:text-4xl font-black text-white mb-1 sm:mb-2 tracking-tight"><span class="text-accent-400">20-35</span>%</div>
-                    <div class="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-widest">Close Rate Promedio</div>
+                <div class="p-2 sm:p-4 hover-card transition-all rounded-xl">
+                    <div class="text-3xl sm:text-4xl font-black text-white mb-1 sm:mb-2 tracking-tight"><span class="text-accent-400">32</span>%</div>
+                    <div class="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-widest">Close Rate Actual</div>
                 </div>
-                <div class="p-2 sm:p-4 border-l border-gray-800">
-                    <div class="text-3xl sm:text-4xl font-black text-white mb-1 sm:mb-2 tracking-tight">+<span class="text-accent-400">$500k</span></div>
-                    <div class="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-widest">Facturación Generada</div>
+                <div class="p-2 sm:p-4 border-l border-gray-800 hover-card transition-all rounded-xl">
+                    <div class="text-3xl sm:text-4xl font-black text-white mb-1 sm:mb-2 tracking-tight">+<span class="text-accent-400">$120k</span></div>
+                    <div class="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-widest">Último Lanzamiento</div>
                 </div>
-                <div class="p-2 sm:p-4 border-t md:border-t-0 md:border-l border-gray-800 mt-4 md:mt-0 pt-6 md:pt-4">
-                    <div class="text-3xl sm:text-4xl font-black text-white mb-1 sm:mb-2 tracking-tight">~<span class="text-accent-400">80</span>%</div>
-                    <div class="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-widest">Ventas en Seguimiento</div>
+                <div class="p-2 sm:p-4 border-t md:border-t-0 md:border-l border-gray-800 mt-4 md:mt-0 pt-6 md:pt-4 hover-card transition-all rounded-xl">
+                    <div class="text-3xl sm:text-4xl font-black text-white mb-1 sm:mb-2 tracking-tight">+<span class="text-accent-400">$45k</span><span class="text-lg text-gray-500 font-medium">/mes</span></div>
+                    <div class="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-widest">Facturación Evergreen</div>
                 </div>
-                <div class="p-2 sm:p-4 border-t border-l md:border-t-0 border-gray-800 mt-4 md:mt-0 pt-6 md:pt-4">
-                    <div class="text-3xl sm:text-4xl font-black text-white mb-1 sm:mb-2 tracking-tight">+<span class="text-accent-400">$2.5k</span></div>
-                    <div class="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-widest">Ticket Promedio</div>
+                <div class="p-2 sm:p-4 border-t border-l md:border-t-0 border-gray-800 mt-4 md:mt-0 pt-6 md:pt-4 hover-card transition-all rounded-xl">
+                    <div class="text-3xl sm:text-4xl font-black text-white mb-1 sm:mb-2 tracking-tight">+<span class="text-accent-400">$800k</span></div>
+                    <div class="text-[10px] sm:text-sm font-medium text-gray-400 uppercase tracking-widest">Facturación Total Generada</div>
                 </div>
             </div>
         </div>
@@ -136,7 +142,6 @@
                 <div class="relative fade-in-up order-2 lg:order-1 max-w-md mx-auto lg:max-w-none">
                     <div class="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl relative z-10 border border-gray-700 bg-gray-800">
                         <!-- TODO: CAMBIAR FOTO DE PERFIL -->
-                        <!-- Como tu foto está en la misma carpeta, solo pon el nombre exacto del archivo (ej: perfil.jpg, mi-foto.png) en el "src" -->
                         <img src="pefil.png" alt="David Muñoz - Closer High Ticket" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/800x1000/1e293b/38bdf8?text=Pon+tu+foto+aqui+(foto-perfil.jpg)'">
                     </div>
                     <div class="absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 w-2/3 aspect-square bg-brand-600/20 rounded-2xl border border-brand-500/30 backdrop-blur-sm z-0 hidden sm:block"></div>
@@ -295,8 +300,6 @@
                 </div>
 
                 <!-- TODO: CONFIGURAR WHATSAPP -->
-                <!-- Instrucción: Cambia el número "573000000000" por tu número real. 
-                     57 es el código de Colombia (cámbialo si es de otro país). NO pongas el signo "+" -->
                 <a href="https://wa.me/17272649837?text=Hola%20David,%20vi%20tu%20landing%20page%20y%20cumplo%20con%20los%20requisitos.%20Me%20gustar%C3%ADa%20que%20audites%20mi%20ecosistema%20y%20hablemos%20sobre%20integrarte%20como%20Closer." 
                    target="_blank" 
                    class="w-full inline-flex justify-center items-center gap-2 sm:gap-3 bg-gradient-to-r from-[#25D366] to-[#128C7E] hover:from-[#1ebd5b] hover:to-[#0f7a6d] text-white font-bold text-base sm:text-xl py-4 sm:py-5 px-6 sm:px-10 rounded-2xl transition-all transform hover:scale-[1.02] shadow-lg shadow-[#25D366]/30">
